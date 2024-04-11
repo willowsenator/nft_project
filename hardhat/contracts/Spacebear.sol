@@ -10,9 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract Spacebear is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
     uint256 private _nextTokenId;
 
-    constructor(
-        address initialOwner
-    ) ERC721("Spacebear", "SBR") Ownable(initialOwner) {}
+    constructor() ERC721("Spacebear", "SBR") Ownable(msg.sender) {}
 
     function _baseURI() internal pure override returns (string memory) {
         return
