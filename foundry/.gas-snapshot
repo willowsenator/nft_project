@@ -1,0 +1,4 @@
+SpacebearTest:testBuyNFT() (gas: 82878)
+SpacebearTest:testCreationNFTWrongOwner() (gas: 13970)
+SpacebearTest:testMintNFT() (gas: 110537)
+SpacebearTest:testNameIsSpacebear() (gas: 12518)
